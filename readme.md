@@ -35,10 +35,10 @@ def euclidean_distance(p,q):<br />
     p=np.asarray(p)<br /> 
     q=np.asarray(q)<br /> 
     
-    for i in range(2):<br /> 
-        distance = distance + (np.square(p[i] - q[i]))<br /> 
+    for i in range(2):
+        distance = distance + (np.square(p[i] - q[i])) 
                                    
-    return np.sqrt(distance)<br /> 
+    return np.sqrt(distance)
 
 After defining euclidean distance classification error was calculated for Y1 and Y2. In the output we can see that classification error for Y1 is 0.0 and classification error for Y2 is 0.0008 and total classification error is 0.0008<br /> 
 
